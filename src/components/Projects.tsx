@@ -1,5 +1,5 @@
-import {  Github, Calendar, Folder } from 'lucide-react';
-import { portfolioData } from '../data/portfolioData';
+import { Github, Calendar, Folder, ExternalLink } from "lucide-react";
+import { portfolioData } from "../data/portfolioData";
 
 const Projects = () => {
   const { projects } = portfolioData;
@@ -48,7 +48,7 @@ const Projects = () => {
                         <Github size={20} />
                       </a>
                     )}
-                    {/* {project.links.live && (
+                    {project.links.live && (
                       <a
                         href={project.links.live}
                         target="_blank"
@@ -57,7 +57,7 @@ const Projects = () => {
                       >
                         <ExternalLink size={20} />
                       </a>
-                    )} */}
+                    )}
                   </div>
                 </div>
 
@@ -73,8 +73,13 @@ const Projects = () => {
                 {project.highlights && (
                   <ul className="space-y-2 mb-4">
                     {project.highlights.map((highlight, idx) => (
-                      <li key={idx} className="text-sm text-gray-600 dark:text-gray-300 flex items-start">
-                        <span className="text-blue-600 dark:text-blue-400 mr-2">▸</span>
+                      <li
+                        key={idx}
+                        className="text-sm text-gray-600 dark:text-gray-300 flex items-start"
+                      >
+                        <span className="text-blue-600 dark:text-blue-400 mr-2">
+                          ▸
+                        </span>
                         {highlight}
                       </li>
                     ))}
