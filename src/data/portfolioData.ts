@@ -99,7 +99,7 @@ export const portfolioData = {
       },
     },
     {
-      title: "grace-erp-consultancy",
+      title: "GraceERP Consultancy PLC",
       type: "company website",
       duration: "08/2024",
       description:
@@ -108,6 +108,18 @@ export const portfolioData = {
       links: {
         github: "https://github.com/yihune21/grace-erp-consultancy",
         live: "https://grace-erp-consultancy-nask.vercel.app/",
+      },
+    },
+    {
+      title: "Tekmacon PLC - Company Website",
+      type: "company website",
+      duration: "08/2024",
+      description:
+        "A modern, responsive React TypeScript website for Tekmacon PLC, an electrical engineering company specializing in installation, design, and consultancy services.",
+      techStack: ["React.", "TypeScript", "TailwindCSS"],
+      links: {
+        github: "https://github.com/yihune21/tekmacon-website",
+        live: "https://tekmacon-website.vercel.app/",
       },
     },
   ],
