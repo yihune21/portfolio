@@ -111,7 +111,7 @@ export const portfolioData = {
       },
     },
     {
-      title: "Tekmacon PLC - Company Website",
+      title: "Tekimacon Engineering PLC",
       type: "company website",
       duration: "08/2024",
       description:
@@ -127,7 +127,7 @@ export const portfolioData = {
   skills: {
     "Programming Languages": ["Python", "JavaScript", "TypeScript", "Golang"],
     Frontend: ["React.js", "TailwindCSS", "HTML5", "CSS3"],
-    Backend: ["Node.js", "Express.js", "Django"],
+    Backend: ["Node.js", "Express.js", "Django", "Gin"],
     Databases: ["MongoDB", "PostgreSQL", "MySQL"],
     "Data Science & ML": ["TensorFlow", "Pandas", "NumPy", "Matplotlib"],
     "Tools & Platforms": ["Git", "GitHub", "GitLab", "Linux", "Docker", "Odoo"],
