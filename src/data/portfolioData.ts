@@ -7,7 +7,7 @@ export const portfolioData = {
     location: "Addis Ababa, Ethiopia",
     linkedin: "https://www.linkedin.com/in/yihune-zewdie-23a766258/",
     github: "https://github.com/yihune21",
-    bio: "Passionate Software Engineer with expertise in full-stack development, specializing in React, Node.js, Python,Golang and Odoo development. Currently pursuing Bachelor's degree in Software Engineering while gaining hands-on experience in enterprise solutions.",
+    bio: "Passionate Software Engineer with expertise in full-stack development, specializing in React, Node.js, Python,Golang and Odoo development.Bachelor's degree in Software Engineering while gaining hands-on experience in enterprise solutions.",
     resume:
       "https://drive.google.com/file/d/1wzOdJ871pINknDdDzsgPeS33wrLqtd7F/view?usp=drive_link",
   },
