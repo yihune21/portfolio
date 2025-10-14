@@ -103,7 +103,7 @@ export const portfolioData = {
       type: "company website",
       duration: "08/2024",
       description:
-        "Developed an Ethiopian Date Picker module to handle date localization, enabling seamless conversion between Gregorian and Ethiopian calendars for purchase and sales modules",
+        "A modern, responsive React TypeScript website for GraceERP Consultancy PLC,A company specializing in Odoo ERP implementation",
       techStack: ["React.", "TypeScript", "TailwindCSS"],
       links: {
         github: "https://github.com/yihune21/grace-erp-consultancy",
